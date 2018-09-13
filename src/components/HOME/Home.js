@@ -3,11 +3,15 @@ import reactDOM from "react-dom";
 
 const Home  = ({onRouteChange}) => {
 
-  return (
-    <div>
-      
-    </div>
-  );
+
+    return(
+
+<div>
+
+        
+  </div>
+    );
+
 
 }
 
