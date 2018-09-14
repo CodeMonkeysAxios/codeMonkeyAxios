@@ -1,13 +1,13 @@
 import React from 'react';
 import reactDOM from "react-dom";
 
-const Forum  = ({onRouteChange}) => {
+const Forum  = ({onRouteChange, route}) => {
 
   return (
 
-<div>
-  
-</div>
+     <div className="route">
+        onClick{() => onRouteChange("forum")}
+     </div>
   );
 
 }
