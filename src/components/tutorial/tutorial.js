@@ -1,6 +1,8 @@
 import YouTube from 'react-youtube';
 import React from 'react';
 
+//import Footer from './components/Footer/Footer.js';
+
 class Tutorial extends React.Component {
   render() {
     const opts = {
@@ -20,9 +22,11 @@ class Tutorial extends React.Component {
     );
   }
 
+
   _onReady(event) {
     // access to player in all event handlers via event.target
     event.target.pauseVideo();
+
   }
 }
 

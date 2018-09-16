@@ -62,7 +62,7 @@ const Home = () => {
   </div>
   <div class="footer">
 
-  <center><p>&#169; Copyright &#169; 2018. HOLA-CODE... Greenfield project.</p></center>
+  
     <div class="connect">
       <a href="http://facebook.com/freewebsitetemplates" id="facebook">facebook</a>
       <a href="http://twitter.com/fwtemplates" id="twitter">twitter</a>

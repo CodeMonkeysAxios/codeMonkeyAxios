@@ -11,6 +11,7 @@ import Rank from './components/Rank/Rank';
 import Tutorial from './components/tutorial/tutorial.js';
 import Contact from './components/SummitTutorial/SummitTutorial.js'
 import Home from './components/Home/Home.js'
+import Footer from './components/Footer/Footer.js'
 import './App.css';
 
 //You must add your own API key here from Clarifai.
@@ -138,33 +139,34 @@ class App extends Component {
             />
             <FaceRecognition box={box} imageUrl={imageUrl} />
             <a href="http://vision-explorer.reactive.ai/">Una nube de imagenes</a>
-
+               <Footer />
             </div>
 
             :(route === 'sugerencias'
               ? <div>
                 <logo />
-                <p> Pedidos component here  </p>
                 <Contact />
+                  <Footer />
                 </div>
 
                   :(route === 'foro'
                     ? <div>
                       <logo />
-                      <p> sugerencias component here  </p>
+                    <Footer />
                       </div>
 
                     :(route === 'tutorial'
                         ? <div>
                             <Logo />
                             <Tutorial />
-                            <p> Tutorial </p>
+                            <Footer />
                           </div>
 
                       :(route === 'home'
                       ? <div>
                           <Logo />
                           <Home />
+                          <Footer />
                         </div>
                         : (
                            route === 'signin'
