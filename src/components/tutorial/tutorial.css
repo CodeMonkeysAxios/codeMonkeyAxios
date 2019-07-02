@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body{
     width:940px;
     margin:0 auto;
@@ -224,4 +225,8 @@
 }
 .body ul.paging li a:hover{
     color:#5D5D5D;
+=======
+p {
+  color:black;
+>>>>>>> 3b721b67463ddf0f63240cefc35bf713d8c6bbe7
 }

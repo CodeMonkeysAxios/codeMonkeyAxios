@@ -1,7 +1,6 @@
 import React from 'react';
-// import {BrowserRouter, Route } from "react-router-dom";
-// import Footer from "./footer"
 import './SummitTutorial.css'
+import Footer from '../Footer/Footer.js'
 
 const Contact = () => {
   return (
@@ -18,13 +17,13 @@ const Contact = () => {
 			<div>
 		      <label for="name">
 		      	<span class="required">Nombre: *</span>
-		      	<input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+		      	<input type="text" id="name" name="name" placeholder="Nombre" required="required" tabindex="1" autofocus="autofocus" />
 		      </label>
 			</div>
 			<div>
 		      <label for="email">
 		      	<span class="required">Email: *</span>
-		      	<input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+		      	<input type="email" id="email" name="email" placeholder="Email" tabindex="2" />
 		      </label>
 			</div>
 			<div>
@@ -47,7 +46,7 @@ const Contact = () => {
 		      <button name="submit" type="submit" id="submit" >Mandar</button>
 			</div>
 		   </form>
-
+       <Footer />
 	</div>
 
   );

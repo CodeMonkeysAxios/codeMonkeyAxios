@@ -35,7 +35,7 @@ class Tutorial extends React.Component {
                 Cuando este alli puedes seleccionar un nuevo carácter puedes
                 tomar una foto o elegir de la biblioteca de imágenes cuando
                 termines. Vamos a ir a la opción de programas.
-                <img src={require("./Image1.png")} height="50%" width="auto" />
+                <img alt='did not load' src={require("./Image1.png")} height="50%" width="auto" />
 
 
               </p>
@@ -59,7 +59,7 @@ class Tutorial extends React.Component {
               definir mover Y por 4 porque el plano de scratch esta hecho basado
               en un plano de x a y.
             </p>
-            <img src={require("./paso2.1.png")} height="50%" width="auto" align="center" />;
+            <img alt='did not load' src={require("./paso2.1.png")} height="50%" width="auto" align="center" />;
           </center>
         </div>
 
@@ -73,7 +73,7 @@ class Tutorial extends React.Component {
           que al momento de presionar la tecla espacio o flecha arriba brinque y
           baje automáticamente
         </p>
-        <img src={require("./paso3.png")} height="50%" width="50%" />
+        <img alt='did not load' src={require("./paso3.png")} height="50%" width="50%" />
 
         <h3>Paso 4</h3>
 
@@ -82,7 +82,7 @@ class Tutorial extends React.Component {
           va a tener el obstáculo. En este caso puedes dibujar uno o subir uno
           de una imagen en este caso voy a dibujar unos obstáculos.
         </p>
-          <img src={require("./paso4.png")} height="50%" width="50%" />
+          <img alt='did not load' src={require("./paso4.png")} height="50%" width="50%" />
         <h3>Paso 5</h3>
 
         <p>
@@ -91,7 +91,7 @@ class Tutorial extends React.Component {
           evento y vamos a seleccionar una repetición para que vaya de lado a
           lado
         </p>
-         <img src={require("./paso5.png")} height="50%" width="50%" />
+         <img alt='did not load' src={require("./paso5.png")} height="50%" width="50%" />
 
         <h3>Paso 6</h3>
 
@@ -101,7 +101,7 @@ class Tutorial extends React.Component {
           defina que cuando este tocando el obstáculo o el borde diga perdiste.
           En este último nadamas seleccionamos parar todo el movimiento
         </p>
-       <img src={require("./paso6.png")} height="50%" width="50%" />
+       <img alt='did not load' src={require("./paso6.png")} height="50%" width="50%" />
 
         <h3>Paso 7</h3>
 
@@ -111,8 +111,8 @@ class Tutorial extends React.Component {
           seleccionaremos crear una variable . Y seleccionamos cambiar “Nombre
           de la variable” por 1
         </p>
-        <img src={require("./paso7.png")} height="25%" width="auto" />
-        <img src={require("./paso7.2.png")} height="25%" width="Auto" />
+        <img alt='did not load' src={require("./paso7.png")} height="25%" width="auto" />
+        <img alt='did not load' src={require("./paso7.2.png")} height="25%" width="Auto" />
 
         <h3>Resetear el contador</h3>
 
@@ -121,7 +121,7 @@ class Tutorial extends React.Component {
           fijar puntos a 0 para que cada vez que inicie el juego otra vez
           resetee el contador.
         </p>
-        <img src={require("./paso8.png")} height="50%" width="50%" />
+        <img alt='did not load' src={require("./paso8.png")} height="50%" width="50%" />
 
         <h3>Personalizar </h3>
 
@@ -129,11 +129,11 @@ class Tutorial extends React.Component {
           Ahora todo lo que queda hacer es personalizar podemos añadir un fondo
           del juego como también añadir una cancion y mas obstaculos.
         </p>
-        <img src={require("./paso9.png")} height="50%" width="50%" />
+        <img alt='did not load' src={require("./paso9.png")} height="50%" width="50%" />
 
         <div>
           <a href="blog.html">
-            <img src="images/cosmetics.jpg" alt="" />
+            <img alt='did not load' src="images/cosmetics.jpg" />
           </a>
           <h3>Ahora nadamas disfruta y juega</h3>
 
@@ -143,6 +143,7 @@ class Tutorial extends React.Component {
             mejores tu experiencia de juego.
           </p>
           <iframe
+            title="scrathc"
             allowtransparency="true"
             width="485"
             height="402"

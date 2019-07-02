@@ -2,12 +2,21 @@
   "name": "facerecognitionbrain",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000/",
   "dependencies": {
+<<<<<<< HEAD
     "clarifai": "^2.9.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-particles-js": "^2.6.0",
     "react-scripts": "1.0.17",
+=======
+    "clarifai": "^2.5.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-particles-js": "^2.1.0",
+    "react-scripts": "^1.1.5",
+>>>>>>> 3b721b67463ddf0f63240cefc35bf713d8c6bbe7
     "react-tilt": "^0.1.4",
     "react-youtube": "^7.9.0",
     "tachyons": "^4.11.1"
